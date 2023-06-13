@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 function Pages() {
   return (
     <Routes>
-      <Route path="/" element={<Home />}></Route>
+      <Route path="/my-portfolio-react" element={<Home />}></Route>
       <Route path="/*" element={<PageNotFound />}></Route>
     </Routes>
   );
