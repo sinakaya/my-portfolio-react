@@ -62,7 +62,10 @@ function Home() {
                   <AiFillInstagram />
                 </Link>
                 <BsTelegram />
-                <Link target="_blank" to={`https://github.com/sinakaya`}>
+                <Link
+                  target="_blank"
+                  to={`https://github.com/sinakaya?tab=repositories`}
+                >
                   <AiFillGithub />
                 </Link>
               </div>
