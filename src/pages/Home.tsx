@@ -1,5 +1,5 @@
 import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
+import { BsDiscord } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -61,7 +61,10 @@ function Home() {
                 >
                   <AiFillInstagram />
                 </Link>
-                <BsTelegram />
+                <Link to={"https://discord.io/sinakaya"}>
+                  <BsDiscord />
+                </Link>
+
                 <Link
                   target="_blank"
                   to={`https://github.com/sinakaya?tab=repositories`}
@@ -75,7 +78,7 @@ function Home() {
             </div>
           </section>
           <section>
-            <div>
+            <div className=" text-center">
               <h3 className="text-3xl py-1 dark:text-white ">
                 Services I offer
               </h3>
