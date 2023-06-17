@@ -136,7 +136,7 @@ function Home() {
                 <p className="text-gray-800 py-1">Java Script</p>
                 <p className="text-gray-800 py-1">Type Script</p>
                 <p className="text-gray-800 py-1">React</p>
-                <p className="text-gray-800 py-1">Indesign</p>
+                <p className="text-gray-800 py-1">Redux</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
                 <img
