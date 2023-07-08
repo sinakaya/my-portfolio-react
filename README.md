@@ -1,7 +1,17 @@
-## Getting started
+# Appy Landing page
 
-To get the frontend running locally:
+## Demo
+[Link to live demo](https://sinakhaninejad.github.io/portfolio-react/).
 
-- Clone this repo
-- `npm install` to install all req'd dependencies
-- `npm run dev` to start the local server (this project Vite)
+## Installation
+1.Clone the repository:
+git clone[ https://github.com/khaninejad/food-recipe-website.git](https://github.com/sinakhaninejad/portfolio-react.git)
+
+2.Install dependencies:
+npm install
+
+3.Start the development server:
+npm start
+
+# Contributing
+Contributions are welcome! Fork the repository and create a new branch with your improvements. Submit a pull request to merge your changes.
